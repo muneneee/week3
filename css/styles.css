@@ -5,5 +5,8 @@ body{
 #showcase{
   background-image: url('../img/background2.jpg');
   background-size: cover;
+  background-position: center;
   height: 100vh;
+  display:flex;
+  flex-direction: column;
 }
