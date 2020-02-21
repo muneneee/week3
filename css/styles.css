@@ -71,3 +71,7 @@ body{
 .proj{
   text-align: center;
 }
+#section-d p{
+  text-align: center;
+  font-size: 80px
+}
