@@ -26,7 +26,7 @@ body{
 }
 
 .fix{
-  position: fixed;
+  position:absolute;
   bottom: 30px;
   left: 50%
 }
@@ -37,4 +37,20 @@ body{
 
 #section-a p{
   text-align: center;
+}
+
+#section-b{
+  background-image: url('../img/background3.jpg');
+}
+
+#section-b h1{
+  text-align: center;
+  color: white;
+  line-height: 2.0;
+}
+
+#section-b p{
+  text-align: center;
+  line-height: 2.0;
+  color: white;
 }
