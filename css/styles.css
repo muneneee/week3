@@ -77,8 +77,14 @@ body{
 }
 #section-e{
   background-image: url('../img/background1.jpg');
-  padding-bottom: 50px;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.ona{
+  height: 200px;
+  width: auto;
+  padding: 5px;
 }
