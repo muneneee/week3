@@ -41,6 +41,10 @@ body{
 
 #section-b{
   background-image: url('../img/background3.jpg');
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #section-b h1{
@@ -53,4 +57,17 @@ body{
   text-align: center;
   line-height: 2.0;
   color: white;
+}
+
+#section-c h1{
+  text-align: center;
+}
+.dev{
+  text-align: center;
+}
+.des{
+  text-align: center;
+}
+.proj{
+  text-align: center;
 }
