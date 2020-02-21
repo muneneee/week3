@@ -17,14 +17,24 @@ body{
 #showcase h1{
   font-size: 40px;
   color: white;
+  line-height: 1.9;
 }
 #showcase p{
   font-size: 10px;
   color: white;
+  line-height: 0.5;
 }
 
 .fix{
   position: fixed;
   bottom: 30px;
   left: 50%
+}
+
+#section-a h1{
+  text-align: center;
+}
+
+#section-a p{
+  text-align: center;
 }
