@@ -98,4 +98,12 @@ footer{
 }
 #section-e h1{
   text-align: center;
+  color: white;
+}
+.behind{
+  background-color: inherit;
+  color: white;
+}
+ ::placeholder {
+  color: white;
 }
