@@ -108,3 +108,6 @@ footer{
  ::placeholder {
   color: white;
 }
+#section-c p {
+  display: none;
+}
