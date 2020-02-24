@@ -90,8 +90,9 @@ body{
 .port-cont{
   padding: 10px;
 }
+
 .port-cont img {
-  width: 100%;
+  width: 90%;
 }
 
 footer{
@@ -122,5 +123,8 @@ footer{
   justify-content: center;
   align-items: center;
   word-wrap: break-word;
+  display: none;
+}
+#section-d p {
   display: none;
 }
