@@ -127,4 +127,11 @@ footer{
 }
 #section-d p {
   display: none;
+  color: darkred;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.test-box {
+  background-color: white;
+  opacity: 20%;
 }
