@@ -87,11 +87,13 @@ body{
   background-size: cover;
 }
 
-.ona{
-  height: 200px;
-  width: auto;
-  padding: 5px;
+.port-cont{
+  padding: 10px;
 }
+.port-cont img {
+  width: 100%;
+}
+
 footer{
   text-align: center;
   line-height: 1.2;
@@ -109,5 +111,16 @@ footer{
   color: white;
 }
 #section-c p {
+  display: none;
+}
+.desc {
+  position: absolute;
+  top:0;left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
   display: none;
 }

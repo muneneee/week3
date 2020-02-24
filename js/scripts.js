@@ -12,3 +12,20 @@ $(document).ready(function() {
         $(".click3").toggle(100);
     });
 })
+
+function validation() {
+    var name = document.getElementById("names").value;
+    var email = document.getElementById("emails").value;
+
+    if (name == "") {
+        alert("required");
+        return false;
+    }
+    else if (email == "") {
+        alert("required");
+        return false
+    }
+    else {
+        alert("cheers " + name + " ,we will get back to you");
+    }
+}

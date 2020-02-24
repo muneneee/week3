@@ -54,48 +54,56 @@
       </div>
     </section>
     <section id="section-d">
-      <div class="row">
-        <div class="col-md-12">
+        <div class="">
           <h1>PORTFOLIO</h1>
         </div>
-        <div class="col-md-3">
-          <img src="img/one.jpg" class="ona" onmouseover="showText">
+      <div class="row no-gutters justify-content-center align-items-center text-center">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/one.jpg" class="ona" id="moja">
+          <div class="desc"> <p>One</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/two.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/two.jpg" class="ona" id="mbili">
+          <div class="desc"> <p>two</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/three.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/three.jpg" class="ona" id="tatu">
+          <div class="desc"> <p>three</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/four.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/four.jpg" class="ona" id="nne">
+          <div class="desc"> <p>four</p> </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <img src="img/five.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/five.jpg" class="ona" id="tano">
+          <div class="desc"> <p>five</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/six.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/six.jpg" class="ona" id="sita">
+          <div class="desc"> <p>six</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/seven.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/seven.jpg" class="ona" id="saba">
+          <div class="desc"> <p>seven</p> </div>
         </div>
-        <div class="col-md-3">
-          <img src="img/eight.jpg" class="ona" onmouseover="showText">
+        <div class="col-md-3 col-sm-6 port-cont">
+          <img src="img/eight.jpg" class="ona" id="nane">
+          <div class="desc"> <p>eight</p> </div>
         </div>
       </div>
     </section>
     <section id="section-e">
       <h1>CONTACT US</h1>
-      <form id="form">
-        <input type="text" placeholder="Name..." class="behind" id="name" required>
-        <input type="email" placeholder="Email..." class="behind" id="email" required>
-        <div>
-          <textarea name="message" rows="10" cols="50" placeholder="Your text here" class="behind" id="text" required></textarea>
-        </div>
-        <button class="but" type="submit">Submit</button>
-      </form>
+      <div class="container">
+        <form onsubmit="return validation()" id="form">
+          <input type="name" placeholder="Name..." class="behind" id="names" name="" value="" required>
+          <input type="email" placeholder="Email..." class="behind" id="emails" value="" required>
+          <div>
+            <textarea name="message" rows="10" cols="50" placeholder="Your text here" class="behind" id="text" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
     <footer>
       <img src="img/logoone.png">
