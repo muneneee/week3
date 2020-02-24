@@ -95,13 +95,17 @@
     <section id="section-e">
       <h1>CONTACT US</h1>
       <div class="container-fluid text-center">
-        <form onsubmit="return validation()" id="form">
-          <input type="name" placeholder="Name..." class="behind" id="names" name="" value="" required>
-          <input type="email" placeholder="Email..." class="behind" id="emails" value="" required>
+        <form action="https://gmail.us4.list-manage.com/subscribe/post?u=c760708b60f1b7bb1965cd035&amp;id=7196142e38" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="name" placeholder="Name..." class="behind" id="names" name="FNAME" value="" required>
+          <input type="email" placeholder="Email..." class="behind" id="emails" name="EMAIL" value="" required>
           <div>
             <textarea name="message" rows="10" cols="50" placeholder="Your text here" class="behind" id="text" required></textarea>
           </div>
-          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-primary" type="submit" onclick="validation()">Submit</button>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div> 
         </form>
       </div>
     </section>
