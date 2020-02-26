@@ -22,6 +22,7 @@ This is the live .[ Click for the demo](https://muneneee.github.io/week3/)
 
 ## Support and contact details
 contact me @ lukekevin39@gmail.com
+[a link](https://skyhost.co.ke/)
 ### License
 The project is under [MIT license]
 Copyright & copy; 2020.All rigths reserved
